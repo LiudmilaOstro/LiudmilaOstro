@@ -1,0 +1,40 @@
+orange + 16,57,78,5,98,63,49,83,45,1,99,69,28,69,84,72,53,92,30,13,82,52,26,11
+const randomNumber = getRandomNumber();
+const isEven = num => num % 2 === 0;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const removeDuplicates = array => Array.from(new Set(array));
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange
+
+const variableName = getRandomNumber();
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+19,30,0,20,84,36,43,6,50,9,61,19,86,80,63,72,27,65,74,87 + 92,87,24,93,99,82,32,54,3,18,46,67,30,82,16,77,87,75,8,20,15,64,47,89,90,21,99,8,26,13,59,86,36,59,44,29,86,7,57,61,67,70,42
+const squareRoot = num => Math.sqrt(num);
+const formatDate = date => new Date(date).toLocaleDateString();
+orange
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+16 / 38
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const isEven = num => num % 2 === 0;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+34,24,24,25,33,42,62,53,76,75,47,61,26,45,38,23,40,48,46,5,88,12,18,36,58,0,7,42,44,70,76,5,96,57,91,86,77,35,96,44,8,91,50,98,8,86,12,33,16,29,16,26,81,61,53,19,31,11,40,23,4,99,1,38,23,52,47,47,92,89,5,26,41,70,24,39,83 / 40,10,76,66,37,46,55,21,87,24,88,64
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+62 / 60,3,50,24,4,10,97,97,10,56,81,72,12,79,89,83,58,58,90,61,7,20,39,81,14,4,94,80,64,1
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+false - false
+const capitalizeString = str => str.toUpperCase();
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const multiply = (a, b) => a * b;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
